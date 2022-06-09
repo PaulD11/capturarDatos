@@ -1,0 +1,107 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+.fila{
+    display: flex;
+    width: 1050px;
+    margin: 50px auto;
+    
+}
+.fila .contForm{
+    width: 50%;
+    background: #d2c6d4;
+    color: #000000;
+    text-align: center;
+    padding: 40px;
+        
+}
+.fila .contForm h2{
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 30px;
+    
+}
+.fila .contForm p{
+    font-size: 25px;
+    color: #4a4333;
+    margin-bottom: 30px;
+    
+}
+.contForm form .formGroup{
+    padding: 10px 50px;
+    text-align: left;
+    
+}
+form .formGroup label{
+    display: block;
+    font-size: 16px;
+    
+}
+form .formGroup input,
+form .formGroup select,
+form .formGroup textarea{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer; 
+    transition: .5s;
+}
+form button{
+    background: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 12px 40px;
+    margin-top: 30px;
+}
+form button:hover{
+    padding: 12px 60px;
+}
+.fila .contAvatar{
+    width: 50%;
+    padding: 40px;
+    text-align: center;
+    background: #efefef;
+}
+.contAvatar img{
+    width: 250px;
+}
+.contAvatar h3{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.contAvatar p{
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+#contAvatar.Gris{
+    background: #645c5c;
+}
+#contAvatar.Blanco{
+    background: #ffffff;
+    color: #000000;
+}
+#contAvatar.Azul{
+    background: #2c35d6;
+    color: #000000;
+}
+#contAvatar.Rojo{
+    background: #d00c0c;
+    color: #000000;
+}
+#contAvatar.Amarillo{
+    background: #e6db12;
+    color: #000000;
+}
+#contAvatar.Morado{
+    background: #8b00fd;
+    color: #000000;
+}
+body{
+    background: url("../img/Fondo.jpg");
+    background-size: cover;
+}
